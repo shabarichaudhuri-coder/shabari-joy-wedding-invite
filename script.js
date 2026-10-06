@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const video = document.getElementById("weddingVideo");
-  const playButton = document.getElementById("playButton");
+  const video = document.getElementById("inviteVideo");
+  const playButton = document.getElementById("playBtn");
 
   if (playButton && video) {
     playButton.addEventListener("click", () => {
